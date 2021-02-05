@@ -1,41 +1,5 @@
                       Nachos for Java README
 
-Welcome to Nachos for Java. We believe that working in Java rather than
-C++ will greatly simplify the development process by preventing bugs
-arising from memory management errors, and improving debugging support.
-
-* Additional software
-
-Nachos requires the Java Devlopment Kit, version 1.5 or later. A
-recent version of the JDK is already installed on the instructional
-machines.  If you are working at home, you will need to download the
-JDK.  It is available from:
-
-  http://www.oracle.com/technetwork/java/javase/downloads/index.html
-
-Please DO NOT DOWNLOAD the JDK into your class account!  Use the
-preinstalled version instead.
-
-The build process for Nachos relies on GNU make. If you are running on
-one of the instructional machines, it is the default make in your
-path.  If you are running on Windows, you will need to download and
-install a port.  The most popular is the Cygwin toolkit, available at:
-
-  https://www.cygwin.com/
-
-The Cygwin package includes ports of most common GNU utilities to
-Windows.
-
-For projects 2 and 3, you will need a MIPS cross compiler, which is a
-specially compiled GCC which will run on one architecture (e.g.  x86)
-and produce files for the MIPS processor.  These compilers are already
-installed on the instructional machines, and are available in the
-directory specified by the $ARCHDIR environment variable.
-
-If you are working at home, you will need to get a cross-compiler for
-yourself.  The cross-compiler for Linux is available from the project
-web page, along with instructions for installing it.
-
 * Compiling Nachos
 
 You should now have a directory called nachos, containing a Makefile,
